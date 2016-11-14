@@ -4,3 +4,9 @@ D:\Программы\TravellingGuide\TravellingGuide\bin\Debug\TravellingGuide.
 D:\Программы\TravellingGuide\TravellingGuide\obj\Debug\TravellingGuide.csprojResolveAssemblyReference.cache
 D:\Программы\TravellingGuide\TravellingGuide\obj\Debug\TravellingGuide.exe
 D:\Программы\TravellingGuide\TravellingGuide\obj\Debug\TravellingGuide.pdb
+D:\Git\common\TravellingGuide\TravellingGuide\bin\Debug\TravellingGuide.exe.config
+D:\Git\common\TravellingGuide\TravellingGuide\obj\Debug\TravellingGuide.exe
+D:\Git\common\TravellingGuide\TravellingGuide\obj\Debug\TravellingGuide.pdb
+D:\Git\common\TravellingGuide\TravellingGuide\bin\Debug\TravellingGuide.exe
+D:\Git\common\TravellingGuide\TravellingGuide\bin\Debug\TravellingGuide.pdb
+D:\Git\common\TravellingGuide\TravellingGuide\obj\Debug\TravellingGuide.csprojResolveAssemblyReference.cache

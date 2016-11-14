@@ -60,6 +60,7 @@ namespace TravellingGuide
             {
                 Console.WriteLine("\nПохоже, Вы не хотите путешествовать...:(");
                 Console.ReadLine();
+                return;
             }
 
             cardsList = ShuffleCards((PlaceEnum)placeFrom, (PlaceEnum)placeTo, countPoints);
