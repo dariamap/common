@@ -1,0 +1,6 @@
+D:\Программы\TravellingGuide\TravellingGuide\bin\Debug\TravellingGuide.exe.config
+D:\Программы\TravellingGuide\TravellingGuide\bin\Debug\TravellingGuide.exe
+D:\Программы\TravellingGuide\TravellingGuide\bin\Debug\TravellingGuide.pdb
+D:\Программы\TravellingGuide\TravellingGuide\obj\Debug\TravellingGuide.csprojResolveAssemblyReference.cache
+D:\Программы\TravellingGuide\TravellingGuide\obj\Debug\TravellingGuide.exe
+D:\Программы\TravellingGuide\TravellingGuide\obj\Debug\TravellingGuide.pdb
