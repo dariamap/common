@@ -1,0 +1,7 @@
+D:\Git\common\TravellingGuide\TravellinGuideTest\bin\Debug\TravellinGuideTest.dll
+D:\Git\common\TravellingGuide\TravellinGuideTest\bin\Debug\TravellinGuideTest.pdb
+D:\Git\common\TravellingGuide\TravellinGuideTest\bin\Debug\TravellingGuide.exe
+D:\Git\common\TravellingGuide\TravellinGuideTest\bin\Debug\TravellingGuide.pdb
+D:\Git\common\TravellingGuide\TravellinGuideTest\obj\Debug\TravellinGuideTest.csprojResolveAssemblyReference.cache
+D:\Git\common\TravellingGuide\TravellinGuideTest\obj\Debug\TravellinGuideTest.dll
+D:\Git\common\TravellingGuide\TravellinGuideTest\obj\Debug\TravellinGuideTest.pdb

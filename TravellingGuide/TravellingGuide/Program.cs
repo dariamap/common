@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TravellingGuide
 {
-    class Program
+    public class Program
     {
         public static List<PlaceEnum> placeList;
         static void Main(string[] args)
@@ -125,16 +125,25 @@ namespace TravellingGuide
         public static List<TravellCard> GetFullTrip(List<TravellCard> cardList)
         {
             List<TravellCard> resultList = new List<TravellCard>();
-            TravellCard clearCard = cardList.Single(c => !cardList.Any(cc => c.PlaceFrom == cc.PlaceTo));
-
-
-            for (int i = 0; i < cardList.Count; i++)
+            try
             {
-                TravellCard currentCard = cardList[i];
-                cardList[cardList.IndexOf(clearCard)] = currentCard;
-                cardList[i] = clearCard;
-                clearCard = cardList.SingleOrDefault(c => c.PlaceFrom == clearCard.PlaceTo);
+                TravellCard clearCard = cardList.Single(c => !cardList.Any(cc => c.PlaceFrom == cc.PlaceTo));
+                for (int i = 0; i < cardList.Count; i++)
+                {
+                    TravellCard currentCard = cardList[i];
+                    cardList[cardList.IndexOf(clearCard)] = currentCard;
+                    cardList[i] = clearCard;
+                    clearCard = cardList.SingleOrDefault(c => c.PlaceFrom == clearCard.PlaceTo);
+                }
             }
+            catch (Exception e)
+            {
+                if (e.GetType() == typeof(InvalidOperationException))
+                    throw new ArgumentException(e.Message, "cardList");//nameof(cardList)
+                else
+                    throw e;
+            }
+            
             return cardList;
         }
     }

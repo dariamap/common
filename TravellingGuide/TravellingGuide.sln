@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellingGuide", "TravellingGuide\TravellingGuide.csproj", "{CBAC75C4-E94A-4B1F-85EA-6B1A8C02E741}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellinGuideTest", "TravellinGuideTest\TravellinGuideTest.csproj", "{F07AEE01-605E-4269-A4D5-27E77A03F815}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{CBAC75C4-E94A-4B1F-85EA-6B1A8C02E741}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBAC75C4-E94A-4B1F-85EA-6B1A8C02E741}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBAC75C4-E94A-4B1F-85EA-6B1A8C02E741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07AEE01-605E-4269-A4D5-27E77A03F815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07AEE01-605E-4269-A4D5-27E77A03F815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07AEE01-605E-4269-A4D5-27E77A03F815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07AEE01-605E-4269-A4D5-27E77A03F815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
